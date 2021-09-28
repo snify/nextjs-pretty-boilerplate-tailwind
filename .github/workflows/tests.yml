@@ -1,13 +1,10 @@
-name: Javascript CI
+name: JavaScript CI
 
 on:
-  push:
-    branches:
-      - main
-      
   pull_request:
     branches:
       - main
+      - development
 
 jobs:
   test:

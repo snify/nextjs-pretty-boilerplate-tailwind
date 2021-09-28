@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <h2 className="text-xl">NextJS-Pretty-Boilerplate with Tailwind</h2>
 
         {/* NOTE: try removing the "text" property in runtime, to see hot-reload type checking in action */}
-        <TestComponent />
+        <TestComponent text="Some text" />
 
         <p className={styles.description}>
           Get started by editing <code className={styles.code}>pages/index.js</code>
