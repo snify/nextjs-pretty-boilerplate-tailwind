@@ -1,0 +1,44 @@
+{
+  "name": "nextjs-pretty-boilerplate-tailwind",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint:fix": "eslint \"src/**/*.{js,ts,tsx}\" --quiet --fix",
+    "lint-scss": "stylelint \"src/**/*.scss\" --cache --cache-location .cache/.stylelintcache",
+    "lint-scss:fix": "stylelint \"src/**/*.scss\" --fix",
+    "types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "autoprefixer": "^10.3.6",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "fork-ts-checker-webpack-plugin": "^6.3.3",
+    "postcss": "^8.3.8",
+    "prettier": "^2.3.2",
+    "sass": "^1.39.2",
+    "sass-loader": "^12.1.0",
+    "sass-resources-loader": "^2.2.4",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "tailwindcss": "^2.2.16",
+    "typescript": "^4.4.3"
+  }
+}
