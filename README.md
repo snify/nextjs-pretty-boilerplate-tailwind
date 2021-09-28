@@ -3,19 +3,21 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`]
 (https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-...But with extra flavor 🎁
+
+...*But* with extra flavor 🎁
+
+<br/>
 
 It contains:
 
 - TypeScript support
 - Type checking at runtime (on hot-reload, see index.tsx#22 to try it)
-- Tailwind with automatic pruning (removes unused CSS)
+- Tailwind with automatic pruning on build (removes unused CSS (!))
 - SASS support
 - Project-wide automatic formatting with Prettier for TypeScript, JS, CSS files
 - Project-wide automatic type checking/rule checking with ESLint
 - BasePath resolving extensions (i.e. "components/mycomponent" instead of "./components/mycomponent")
-
-
+<br/>
 Few extra commands (i.e. yarn [command] or npm run [command]):
 
 - format - formats all js, jsx, ts, tsx, json, md and saves them
@@ -24,7 +26,7 @@ Few extra commands (i.e. yarn [command] or npm run [command]):
 - lint-scss - linting checks for scss using Stylelint
 - lint-scss:fix - automatic linting for scss files
 - types - type checking for ts/tsx files
-
+<br/>
 ## Getting Started
 
 First, run the development server:
