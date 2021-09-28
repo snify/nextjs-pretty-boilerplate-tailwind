@@ -19,7 +19,8 @@ It contains:
 - Project-wide automatic type checking/rule checking with ESLint
 - BasePath resolving extensions (i.e. "components/mycomponent" instead of "./components/mycomponent")
 <br/>
-Few extra commands (i.e. yarn [command] or npm run [command]):
+
+Few extra commands (i.e. *yarn [command]* or *npm run [command]*):
 
 - format - formats all js, jsx, ts, tsx, json, md and saves them
 - lint - linting checks
@@ -28,6 +29,7 @@ Few extra commands (i.e. yarn [command] or npm run [command]):
 - lint-scss:fix - automatic linting for scss files
 - types - type checking for ts/tsx files
 <br/>
+
 ## Getting Started
 
 First, run the development server:
