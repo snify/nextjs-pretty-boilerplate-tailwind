@@ -18,6 +18,7 @@ It contains:
 - Project-wide automatic formatting with Prettier for TypeScript, JS, CSS files
 - Project-wide automatic type checking/rule checking with ESLint
 - BasePath resolving extensions (i.e. "components/mycomponent" instead of "./components/mycomponent")
+- GitHub CI/CD which checks everything on new Pull Request
 <br/>
 
 Few extra commands (i.e. *yarn [command]* or *npm run [command]*):
